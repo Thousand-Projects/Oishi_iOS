@@ -7,102 +7,173 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D18C96E12C5B7F1900332E48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18C96E02C5B7F1900332E48 /* AppDelegate.swift */; };
-		D18C96E32C5B7F1900332E48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18C96E22C5B7F1900332E48 /* SceneDelegate.swift */; };
-		D18C96E52C5B7F1900332E48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18C96E42C5B7F1900332E48 /* ViewController.swift */; };
-		D18C96E82C5B7F1900332E48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18C96E62C5B7F1900332E48 /* Main.storyboard */; };
-		D18C96EA2C5B7F1A00332E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18C96E92C5B7F1A00332E48 /* Assets.xcassets */; };
-		D18C96ED2C5B7F1A00332E48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18C96EB2C5B7F1A00332E48 /* LaunchScreen.storyboard */; };
+		D18C97262C5E113F00332E48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18C97252C5E113F00332E48 /* AppDelegate.swift */; };
+		D18C97282C5E113F00332E48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18C97272C5E113F00332E48 /* SceneDelegate.swift */; };
+		D18C972F2C5E114000332E48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D18C972E2C5E114000332E48 /* Assets.xcassets */; };
+		D18C97322C5E114000332E48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D18C97302C5E114000332E48 /* LaunchScreen.storyboard */; };
+		D18C97402C5E136000332E48 /* Main+VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18C973F2C5E136000332E48 /* Main+VC.swift */; };
+		D18C97422C5E137500332E48 /* Basket+VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18C97412C5E137500332E48 /* Basket+VC.swift */; };
+		D18C97462C5E145400332E48 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D18C97452C5E145400332E48 /* SnapKit */; };
+		D18C97492C5E145D00332E48 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = D18C97482C5E145D00332E48 /* Then */; };
+		D18C974C2C5E147200332E48 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = D18C974B2C5E147200332E48 /* RxBlocking */; };
+		D18C974E2C5E147200332E48 /* RxBlocking-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D18C974D2C5E147200332E48 /* RxBlocking-Dynamic */; };
+		D18C97502C5E147200332E48 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = D18C974F2C5E147200332E48 /* RxCocoa */; };
+		D18C97522C5E147200332E48 /* RxCocoa-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = D18C97512C5E147200332E48 /* RxCocoa-Dynamic */; };
+		D18C97542C5E147200332E48 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = D18C97532C5E147200332E48 /* RxRelay */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D18C96DD2C5B7F1900332E48 /* Oishi_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oishi_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D18C96E02C5B7F1900332E48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D18C96E22C5B7F1900332E48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D18C96E42C5B7F1900332E48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D18C96E72C5B7F1900332E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D18C96E92C5B7F1A00332E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D18C96EC2C5B7F1A00332E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D18C96EE2C5B7F1A00332E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D18C97222C5E113F00332E48 /* Oishi_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oishi_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18C97252C5E113F00332E48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D18C97272C5E113F00332E48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D18C972E2C5E114000332E48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D18C97312C5E114000332E48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D18C97332C5E114000332E48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D18C973F2C5E136000332E48 /* Main+VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Main+VC.swift"; sourceTree = "<group>"; };
+		D18C97412C5E137500332E48 /* Basket+VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Basket+VC.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D18C96DA2C5B7F1900332E48 /* Frameworks */ = {
+		D18C971F2C5E113F00332E48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D18C97462C5E145400332E48 /* SnapKit in Frameworks */,
+				D18C974C2C5E147200332E48 /* RxBlocking in Frameworks */,
+				D18C97542C5E147200332E48 /* RxRelay in Frameworks */,
+				D18C97502C5E147200332E48 /* RxCocoa in Frameworks */,
+				D18C97492C5E145D00332E48 /* Then in Frameworks */,
+				D18C97522C5E147200332E48 /* RxCocoa-Dynamic in Frameworks */,
+				D18C974E2C5E147200332E48 /* RxBlocking-Dynamic in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D18C96D42C5B7F1900332E48 = {
+		D18C97192C5E113F00332E48 = {
 			isa = PBXGroup;
 			children = (
-				D18C96DF2C5B7F1900332E48 /* Oishi_iOS */,
-				D18C96DE2C5B7F1900332E48 /* Products */,
+				D18C97242C5E113F00332E48 /* Oishi_iOS */,
+				D18C97232C5E113F00332E48 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D18C96DE2C5B7F1900332E48 /* Products */ = {
+		D18C97232C5E113F00332E48 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D18C96DD2C5B7F1900332E48 /* Oishi_iOS.app */,
+				D18C97222C5E113F00332E48 /* Oishi_iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D18C96DF2C5B7F1900332E48 /* Oishi_iOS */ = {
+		D18C97242C5E113F00332E48 /* Oishi_iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D18C96E02C5B7F1900332E48 /* AppDelegate.swift */,
-				D18C96E22C5B7F1900332E48 /* SceneDelegate.swift */,
-				D18C96E42C5B7F1900332E48 /* ViewController.swift */,
-				D18C96E62C5B7F1900332E48 /* Main.storyboard */,
-				D18C96E92C5B7F1A00332E48 /* Assets.xcassets */,
-				D18C96EB2C5B7F1A00332E48 /* LaunchScreen.storyboard */,
-				D18C96EE2C5B7F1A00332E48 /* Info.plist */,
+				D18C973A2C5E12EC00332E48 /* Sources */,
+				D18C97392C5E12E300332E48 /* Resources */,
+				D18C97332C5E114000332E48 /* Info.plist */,
 			);
 			path = Oishi_iOS;
+			sourceTree = "<group>";
+		};
+		D18C97392C5E12E300332E48 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D18C972E2C5E114000332E48 /* Assets.xcassets */,
+				D18C97302C5E114000332E48 /* LaunchScreen.storyboard */,
+				D18C97432C5E138A00332E48 /* Sources */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D18C973A2C5E12EC00332E48 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D18C973B2C5E12F300332E48 /* Component */,
+				D18C973C2C5E12F800332E48 /* Scene */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		D18C973B2C5E12F300332E48 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		D18C973C2C5E12F800332E48 /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				D18C973E2C5E131300332E48 /* main */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		D18C973E2C5E131300332E48 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				D18C973F2C5E136000332E48 /* Main+VC.swift */,
+				D18C97412C5E137500332E48 /* Basket+VC.swift */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		D18C97432C5E138A00332E48 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D18C97252C5E113F00332E48 /* AppDelegate.swift */,
+				D18C97272C5E113F00332E48 /* SceneDelegate.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D18C96DC2C5B7F1900332E48 /* Oishi_iOS */ = {
+		D18C97212C5E113F00332E48 /* Oishi_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D18C96F12C5B7F1A00332E48 /* Build configuration list for PBXNativeTarget "Oishi_iOS" */;
+			buildConfigurationList = D18C97362C5E114000332E48 /* Build configuration list for PBXNativeTarget "Oishi_iOS" */;
 			buildPhases = (
-				D18C96D92C5B7F1900332E48 /* Sources */,
-				D18C96DA2C5B7F1900332E48 /* Frameworks */,
-				D18C96DB2C5B7F1900332E48 /* Resources */,
+				D18C971E2C5E113F00332E48 /* Sources */,
+				D18C971F2C5E113F00332E48 /* Frameworks */,
+				D18C97202C5E113F00332E48 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Oishi_iOS;
+			packageProductDependencies = (
+				D18C97452C5E145400332E48 /* SnapKit */,
+				D18C97482C5E145D00332E48 /* Then */,
+				D18C974B2C5E147200332E48 /* RxBlocking */,
+				D18C974D2C5E147200332E48 /* RxBlocking-Dynamic */,
+				D18C974F2C5E147200332E48 /* RxCocoa */,
+				D18C97512C5E147200332E48 /* RxCocoa-Dynamic */,
+				D18C97532C5E147200332E48 /* RxRelay */,
+			);
 			productName = Oishi_iOS;
-			productReference = D18C96DD2C5B7F1900332E48 /* Oishi_iOS.app */;
+			productReference = D18C97222C5E113F00332E48 /* Oishi_iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D18C96D52C5B7F1900332E48 /* Project object */ = {
+		D18C971A2C5E113F00332E48 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
-					D18C96DC2C5B7F1900332E48 = {
+					D18C97212C5E113F00332E48 = {
 						CreatedOnToolsVersion = 15.1;
 					};
 				};
 			};
-			buildConfigurationList = D18C96D82C5B7F1900332E48 /* Build configuration list for PBXProject "Oishi_iOS" */;
+			buildConfigurationList = D18C971D2C5E113F00332E48 /* Build configuration list for PBXProject "Oishi_iOS" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +181,52 @@
 				en,
 				Base,
 			);
-			mainGroup = D18C96D42C5B7F1900332E48;
-			productRefGroup = D18C96DE2C5B7F1900332E48 /* Products */;
+			mainGroup = D18C97192C5E113F00332E48;
+			packageReferences = (
+				D18C97442C5E145400332E48 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D18C97472C5E145D00332E48 /* XCRemoteSwiftPackageReference "Then" */,
+				D18C974A2C5E147200332E48 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
+			productRefGroup = D18C97232C5E113F00332E48 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D18C96DC2C5B7F1900332E48 /* Oishi_iOS */,
+				D18C97212C5E113F00332E48 /* Oishi_iOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D18C96DB2C5B7F1900332E48 /* Resources */ = {
+		D18C97202C5E113F00332E48 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D18C96ED2C5B7F1A00332E48 /* LaunchScreen.storyboard in Resources */,
-				D18C96EA2C5B7F1A00332E48 /* Assets.xcassets in Resources */,
-				D18C96E82C5B7F1900332E48 /* Main.storyboard in Resources */,
+				D18C97322C5E114000332E48 /* LaunchScreen.storyboard in Resources */,
+				D18C972F2C5E114000332E48 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D18C96D92C5B7F1900332E48 /* Sources */ = {
+		D18C971E2C5E113F00332E48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D18C96E52C5B7F1900332E48 /* ViewController.swift in Sources */,
-				D18C96E12C5B7F1900332E48 /* AppDelegate.swift in Sources */,
-				D18C96E32C5B7F1900332E48 /* SceneDelegate.swift in Sources */,
+				D18C97422C5E137500332E48 /* Basket+VC.swift in Sources */,
+				D18C97402C5E136000332E48 /* Main+VC.swift in Sources */,
+				D18C97262C5E113F00332E48 /* AppDelegate.swift in Sources */,
+				D18C97282C5E113F00332E48 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D18C96E62C5B7F1900332E48 /* Main.storyboard */ = {
+		D18C97302C5E114000332E48 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D18C96E72C5B7F1900332E48 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D18C96EB2C5B7F1A00332E48 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D18C96EC2C5B7F1A00332E48 /* Base */,
+				D18C97312C5E114000332E48 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +234,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D18C96EF2C5B7F1A00332E48 /* Debug */ = {
+		D18C97342C5E114000332E48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -229,7 +297,7 @@
 			};
 			name = Debug;
 		};
-		D18C96F02C5B7F1A00332E48 /* Release */ = {
+		D18C97352C5E114000332E48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -285,7 +353,7 @@
 			};
 			name = Release;
 		};
-		D18C96F22C5B7F1A00332E48 /* Debug */ = {
+		D18C97372C5E114000332E48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -297,7 +365,7 @@
 				INFOPLIST_FILE = Oishi_iOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -313,7 +381,7 @@
 			};
 			name = Debug;
 		};
-		D18C96F32C5B7F1A00332E48 /* Release */ = {
+		D18C97382C5E114000332E48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -325,7 +393,7 @@
 				INFOPLIST_FILE = Oishi_iOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -344,25 +412,90 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D18C96D82C5B7F1900332E48 /* Build configuration list for PBXProject "Oishi_iOS" */ = {
+		D18C971D2C5E113F00332E48 /* Build configuration list for PBXProject "Oishi_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D18C96EF2C5B7F1A00332E48 /* Debug */,
-				D18C96F02C5B7F1A00332E48 /* Release */,
+				D18C97342C5E114000332E48 /* Debug */,
+				D18C97352C5E114000332E48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D18C96F12C5B7F1A00332E48 /* Build configuration list for PBXNativeTarget "Oishi_iOS" */ = {
+		D18C97362C5E114000332E48 /* Build configuration list for PBXNativeTarget "Oishi_iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D18C96F22C5B7F1A00332E48 /* Debug */,
-				D18C96F32C5B7F1A00332E48 /* Release */,
+				D18C97372C5E114000332E48 /* Debug */,
+				D18C97382C5E114000332E48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D18C97442C5E145400332E48 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		D18C97472C5E145D00332E48 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		D18C974A2C5E147200332E48 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D18C97452C5E145400332E48 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D18C97442C5E145400332E48 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		D18C97482C5E145D00332E48 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D18C97472C5E145D00332E48 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		D18C974B2C5E147200332E48 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D18C974A2C5E147200332E48 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		D18C974D2C5E147200332E48 /* RxBlocking-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D18C974A2C5E147200332E48 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxBlocking-Dynamic";
+		};
+		D18C974F2C5E147200332E48 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D18C974A2C5E147200332E48 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		D18C97512C5E147200332E48 /* RxCocoa-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D18C974A2C5E147200332E48 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = "RxCocoa-Dynamic";
+		};
+		D18C97532C5E147200332E48 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D18C974A2C5E147200332E48 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = D18C96D52C5B7F1900332E48 /* Project object */;
+	rootObject = D18C971A2C5E113F00332E48 /* Project object */;
 }
